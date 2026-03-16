@@ -40,7 +40,7 @@ export function DocHeader({
           style={{ border: `2px solid ${C.headerBg}`, color: C.headerBg }}
         >
           {universityLogo ? (
-            <img src={universityLogo} alt="" crossOrigin="anonymous" className="h-full w-full object-contain" />
+            <img src={universityLogo} alt="" className="h-full w-full object-contain" />
           ) : (
             <span className="text-[22px]">{universityName.charAt(0)}</span>
           )}
@@ -115,7 +115,6 @@ export function SignatureBlock({
         <img
           src={signatureUrl}
           alt={title}
-          crossOrigin="anonymous"
           className="h-10 w-28 object-contain"
         />
       )}

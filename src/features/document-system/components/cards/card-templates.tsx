@@ -35,7 +35,7 @@ function PhotoFrame({
       }}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={url} alt="Student" crossOrigin="anonymous" className="w-full h-full object-cover" />
+      <img src={url} alt="Student" className="w-full h-full object-cover" />
     </div>
   );
 }
@@ -58,7 +58,7 @@ function UniLogo({
         style={{ width: size, height: size }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={logoUrl} alt="" crossOrigin="anonymous" className="w-full h-full object-cover" />
+        <img src={logoUrl} alt="" className="w-full h-full object-cover" />
       </div>
     );
   }

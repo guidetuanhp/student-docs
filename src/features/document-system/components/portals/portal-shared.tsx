@@ -89,7 +89,6 @@ export function ProfileCard({
           <img
             src={data.photoUrl}
             alt=""
-            crossOrigin="anonymous"
             className="h-full w-full object-cover"
           />
         </div>
@@ -447,7 +446,7 @@ export function PortalHeader({
           style={{ border: `2px solid ${T.accent}`, color: T.accent }}
         >
           {universityLogo ? (
-            <img src={universityLogo} alt="" crossOrigin="anonymous" className="h-full w-full object-contain" />
+            <img src={universityLogo} alt="" className="h-full w-full object-contain" />
           ) : (
             <span className="text-[18px]">{universityName.charAt(0)}</span>
           )}
